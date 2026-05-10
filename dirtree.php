@@ -139,7 +139,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
             }
         
             .structure-output {
-                font-size: 0.9rem;
+                font-size: .9rem;
             }
         }
 
@@ -161,7 +161,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
         .controls {
             width: 100%;
             display: flex;
-            gap: 0.8rem;
+            gap: .8rem;
             flex-wrap: wrap;
         }
 
@@ -185,7 +185,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
             background: transparent;
             color: white;
             border: 2px solid white;
-            padding: 0.6rem 1.2rem;
+            padding: .6rem 1.2rem;
             border-radius: 0;
             cursor: pointer;
             font-family: inherit;
@@ -194,7 +194,6 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            transition: all 0.1s ease;
         }
     
         button.copy-btn { 
@@ -246,7 +245,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
             color: white;
             background: rgb(0 96 255 / .5);
             padding: 1rem;
-            font-size: 0.9rem;
+            font-size: .9rem;
             margin-top: 2.5rem;
         }
 
@@ -282,24 +281,24 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
         }
 
         .structure-output::-webkit-scrollbar-track {
-            background: rgba(255, 255, 255, 0.05);
+            background: rgb(255 255 255 / .05);
             border-radius: 4px;
         }
 
         .structure-output::-webkit-scrollbar-thumb {
-            background: rgba(255, 255, 255, 0.2);
+            background: rgb(255 255 255 / .2);
             border-radius: 4px;
-            transition: background 0.1s;
+            transition: background .1s;
         }
 
         .structure-output::-webkit-scrollbar-thumb:hover {
-            background: rgba(255, 255, 255, 0.4);
+            background: rgb(255 255 255 / .4);
         }
 
         /* Firefox scrollbar */
         .structure-output {
             scrollbar-width: thin;
-            scrollbar-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.05);
+            scrollbar-color: rgb(255 255 255 / .2) rgb(255 255 255 / .05);
         }
 
         /* Small mobile adjustments */
