@@ -1,4 +1,4 @@
-# ├── DirBranch
+# ├── EchoTree
 
 A single-file PHP + JavaScript utility that generates clean ASCII folder structure trees directly in your browser. Perfect for documentation, bug reports, and AI prompts.
 
@@ -14,9 +14,9 @@ A single-file PHP + JavaScript utility that generates clean ASCII folder structu
 - **Zero config** – Just drop and run
 
 ## Usage
-1. Drop `dirbranch.php` into any project folder
+1. Drop `echotree.php` into any project folder
 2. Open it in your browser:  
-   `http://localhost/your-project/dirbranch.php`
+   `http://localhost/your-project/echotree.php`
 3. Click **"Copy"** → paste the tree anywhere
 
 ## Example Output
@@ -50,7 +50,7 @@ Perfect for:
 
 ## File Structure
 ```
-dirbranch.php
+echotree.php
 ├── PHP backend (directory scanner)
 └── HTML/JS frontend (renderer + copy)
 ```
