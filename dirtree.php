@@ -62,7 +62,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%231c1c1c'/><path d='M6 8 L6 24' stroke='%23ffffff' stroke-width='2' stroke-linecap='square'/><path d='M6 16 L26 16' stroke='%23ffffff' stroke-width='2' stroke-linecap='square'/></svg>">
-    <title>DirTree – Folder Structure Generator</title>
+    <title>DirBranch – Folder Structure Generator</title>
     <style>
         * { margin:0; padding:0; box-sizing:border-box; }
 
@@ -341,7 +341,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
         <!-- Right: sticky sidebar -->
         <aside class="sidebar">
             <div class="header">
-                <h1>├── DirTree</h1>
+                <h1>├── DirBranch</h1>
                 <div class="controls">
                     <button id="refreshBtn">Refresh</button>
                     <button id="copyBtn" class="copy-btn">Copy</button>
@@ -353,7 +353,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'getStructure') {
                 Compatible with Markdown code blocks. Refresh after file changes.
             </div>
 
-            <p class="credit"><a href="https://github.com/jacypress/dirtree" target="_blank">github.com/jacypress/dirtree</a></p>
+            <p class="credit"><a href="https://github.com/jacypress/dirbranch" target="_blank">github.com/jacypress/dirbranch</a></p>
         </aside>
     </div>
 
